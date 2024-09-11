@@ -1,0 +1,61 @@
+header {
+    padding: 10px;
+    background: rgb(63, 139, 225);
+}
+
+.logo {
+    width: 90px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+/* Make sure the ul is displayed as flex */
+.desktop_menu ul {
+    display: flex; /* Aligns items horizontally */
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end; /* Aligns the items to the right */
+    align-items: center; /* Aligns the items vertically centered */
+}
+
+.desktop_menu ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 26px;
+}
+
+.desktop_menu ul li:hover {
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    color: yellow;
+    transition: 0.4s ease-in-out;
+}
+
+/* Optional: Add some padding/margin to the logo section if needed */
+.logo-container {
+    display: flex;
+    justify-content: flex-start; /* Ensures content (Digital Soul) is pushed to the left */
+    align-items: center; /* Vertically center the text */
+    padding: 0; /* Adjust padding if needed */
+}
+
+/* Style the logo text (Digital Soul) */
+.logo-container h1 {
+    color: #fbfcfe; /* Change this to the desired color (e.g., orange-red) */
+    font-size: 36px; /* Adjust font size if needed */
+    font-weight: bold; /* Make it bold */
+    margin: 0; /* Ensure no extra margin around the heading */
+    text-align: left; /* Aligns the text to the left */
+}
+
+/* Optional: Add hover effect if needed */
+.logo-container h1:hover {
+    color: #33c1ff; /* Color change on hover (e.g., light blue) */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+}
+

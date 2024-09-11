@@ -1,0 +1,31 @@
+/* Style for the main content */
+main {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Vertically center the content */
+    height: calc(50vh - 80px); /* Adjust the height based on the header's height (e.g., 80px) */
+    padding: 20px;
+  }
+  
+  /* About container style */
+  .about-container {
+    max-width: 400px; /* Set max width for content */
+    margin-left: 20px; /* Add left margin to separate from the edge */
+  }
+  
+  /* Style for the h2 */
+  .about-container h2 {
+    color: #02534d;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Adjusting responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    main {
+      justify-content: center; /* Center the content on smaller screens */
+      padding: 10px;
+    }
+  }
+  
